@@ -57,7 +57,7 @@ async def init():
         pass
     try:
         await Vip.stream_call(
-            "https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4"
+            "https://telegra.ph/%EA%9C%B1%CA%80%C9%AA%E1%B4%8B%E1%B4%80%C9%B4%E1%B4%9B%E1%B4%80-07-19"
         )
     except NoActiveGroupCall:
         LOGGER("VipX").error(
@@ -67,7 +67,7 @@ async def init():
     except:
         pass
     await Vip.decorators()
-    LOGGER("VipX").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝗩𝗜𝗣 𝗕𝗢𝗬♨️\n╚═════ஜ۩۞۩ஜ════╝")
+    LOGGER("VipX").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝙎𝙧𝙞𝙠𝙖𝙣𝙩𝙖 ♨️\n╚═════ஜ۩۞۩ஜ════╝")
     await idle()
 
 
